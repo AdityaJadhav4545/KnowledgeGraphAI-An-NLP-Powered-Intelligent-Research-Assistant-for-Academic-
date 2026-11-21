@@ -1,0 +1,70 @@
+{
+  "label_type": "synthetic",
+  "description": "Small reproducible retrieval fixture. Documents and relevance labels were authored for software validation; labels are not human judgments and do not establish benchmark quality.",
+  "documents": [
+    {
+      "chunk_id": "synthetic-bert-squad",
+      "paper_id": 1001,
+      "chunk_index": 0,
+      "title": "BERT for Extractive Question Answering",
+      "text": "BERT fine-tuning on the SQuAD dataset improves extractive question answering by predicting answer spans from contextual token representations.",
+      "page_number": 2,
+      "section_title": "Experiments",
+      "source_document": "synthetic-bert-squad"
+    },
+    {
+      "chunk_id": "synthetic-graph-neural",
+      "paper_id": 1002,
+      "chunk_index": 0,
+      "title": "Message Passing in Graph Neural Networks",
+      "text": "Graph neural networks aggregate messages from neighboring nodes for node classification and graph representation learning.",
+      "page_number": 4,
+      "section_title": "Methods",
+      "source_document": "synthetic-graph-neural"
+    },
+    {
+      "chunk_id": "synthetic-crispr",
+      "paper_id": 1003,
+      "chunk_index": 0,
+      "title": "CRISPR-Cas9 Genome Editing",
+      "text": "CRISPR-Cas9 uses guide RNA to target genomic loci for programmable genome editing.",
+      "page_number": 1,
+      "section_title": "Introduction",
+      "source_document": "synthetic-crispr"
+    },
+    {
+      "chunk_id": "synthetic-climate",
+      "paper_id": 1004,
+      "chunk_index": 0,
+      "title": "Climate Change and Atmospheric Warming",
+      "text": "Climate observations measure atmospheric warming and changes in global temperature over time.",
+      "page_number": 3,
+      "section_title": "Results",
+      "source_document": "synthetic-climate"
+    },
+    {
+      "chunk_id": "synthetic-imaging",
+      "paper_id": 1005,
+      "chunk_index": 0,
+      "title": "Deep Learning for Medical Image Segmentation",
+      "text": "Convolutional neural networks segment medical images and are evaluated using the Dice coefficient.",
+      "page_number": 5,
+      "section_title": "Evaluation",
+      "source_document": "synthetic-imaging"
+    }
+  ],
+  "queries": [
+    {
+      "query": "How does BERT answer questions on SQuAD?",
+      "relevant_chunk_ids": ["synthetic-bert-squad"]
+    },
+    {
+      "query": "How do graph neural networks aggregate neighboring node information?",
+      "relevant_chunk_ids": ["synthetic-graph-neural"]
+    },
+    {
+      "query": "Which method uses guide RNA for genome editing?",
+      "relevant_chunk_ids": ["synthetic-crispr"]
+    }
+  ]
+}

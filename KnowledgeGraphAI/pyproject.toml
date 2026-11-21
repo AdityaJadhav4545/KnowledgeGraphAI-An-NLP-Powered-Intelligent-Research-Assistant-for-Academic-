@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "knowledgegraphai"
+version = "1.0.0"
+description = "Evidence-grounded scientific NLP, knowledge graph, and retrieval assistant"
+requires-python = ">=3.10,<3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra -p no:faulthandler"
+markers = [
+    "real_model: tests requiring downloaded ML model weights",
+]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+extend-exclude = ["data", "reports", "models"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

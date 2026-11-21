@@ -1,0 +1,101 @@
+{
+  "dataset_version": "phase4.3-arxiv-pilot-v1",
+  "query_source": "Curator-authored queries grounded in the selected paper topic/title set; relevance labels are maintained separately and remain unjudged pending human review.",
+  "queries": [
+    {
+      "query_id": "nlp-attention-01",
+      "query_text": "How can self-attention replace recurrent and convolutional layers in sequence-to-sequence language models?",
+      "target_areas": [
+        "nlp",
+        "deep_learning"
+      ]
+    },
+    {
+      "query_id": "nlp-bert-02",
+      "query_text": "How does bidirectional transformer pretraining produce contextual representations for language understanding?",
+      "target_areas": [
+        "nlp",
+        "deep_learning"
+      ]
+    },
+    {
+      "query_id": "nlp-scientific-03",
+      "query_text": "What changes are needed to pretrain language models effectively on scientific publications?",
+      "target_areas": [
+        "nlp",
+        "scientific_text"
+      ]
+    },
+    {
+      "query_id": "ir-dense-04",
+      "query_text": "How can dense passage representations retrieve evidence for open-domain question answering?",
+      "target_areas": [
+        "information_retrieval",
+        "nlp"
+      ]
+    },
+    {
+      "query_id": "ir-colbert-05",
+      "query_text": "How does late interaction between contextualized query and document tokens support efficient passage ranking?",
+      "target_areas": [
+        "information_retrieval",
+        "nlp"
+      ]
+    },
+    {
+      "query_id": "ir-beir-06",
+      "query_text": "How should information retrieval models be evaluated for zero-shot generalization across heterogeneous tasks?",
+      "target_areas": [
+        "information_retrieval"
+      ]
+    },
+    {
+      "query_id": "nlp-rag-07",
+      "query_text": "How can retrieved documents provide non-parametric knowledge to language generation models?",
+      "target_areas": [
+        "nlp",
+        "information_retrieval"
+      ]
+    },
+    {
+      "query_id": "gnn-gcn-08",
+      "query_text": "How can graph convolution propagate neighborhood information for semi-supervised node classification?",
+      "target_areas": [
+        "graph_learning",
+        "deep_learning"
+      ]
+    },
+    {
+      "query_id": "gnn-attention-09",
+      "query_text": "How can attention assign different importance to neighboring nodes in graph neural networks?",
+      "target_areas": [
+        "graph_learning",
+        "deep_learning"
+      ]
+    },
+    {
+      "query_id": "cv-residual-10",
+      "query_text": "How do residual connections enable training of deeper convolutional image recognition networks?",
+      "target_areas": [
+        "computer_vision",
+        "deep_learning"
+      ]
+    },
+    {
+      "query_id": "cv-detection-11",
+      "query_text": "How do region proposal networks improve object detection speed and accuracy?",
+      "target_areas": [
+        "computer_vision",
+        "deep_learning"
+      ]
+    },
+    {
+      "query_id": "cv-segmentation-12",
+      "query_text": "How can encoder-decoder convolutional networks perform biomedical image segmentation with limited training data?",
+      "target_areas": [
+        "computer_vision",
+        "biomedical_imaging"
+      ]
+    }
+  ]
+}

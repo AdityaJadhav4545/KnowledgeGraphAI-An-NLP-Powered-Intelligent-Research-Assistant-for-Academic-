@@ -1,0 +1,14 @@
+{
+  "name": "retrieval-baseline-faiss-cosine",
+  "research_question": "How does FAISS cosine retrieval perform on the Phase 4.3 corpus once human relevance judgments are complete?",
+  "dataset_description": "Phase 4.3 12-paper pilot corpus; use only explicitly human-labeled judgments for relevance metrics.",
+  "seed": 0,
+  "strategy": "faiss_cosine",
+  "metrics": ["precision@k", "recall@k", "mrr", "map@k", "ndcg@k", "latency_seconds"],
+  "parameters": {
+    "k_values": [1, 3, 5, 10],
+    "embedding_model": "allenai/specter2_base",
+    "document_adapter": "allenai/specter2",
+    "query_adapter": "allenai/specter2_adhoc_query"
+  }
+}

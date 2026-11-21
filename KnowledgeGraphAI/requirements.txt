@@ -1,0 +1,23 @@
+# Runtime dependencies pinned for the documented Python 3.10 environment.
+# Install with: py -3.10 -m pip install -r requirements.txt
+fastapi==0.115.12
+uvicorn[standard]==0.34.3
+SQLAlchemy==2.0.41
+pydantic==2.11.4
+python-dotenv==1.1.0
+python-multipart==0.0.20
+neo4j==5.28.1
+PyMuPDF==1.25.5
+pypdf==5.5.0
+requests==2.32.3
+numpy==2.2.6
+torch==2.7.0
+transformers==4.47.1
+adapters==1.1.0
+huggingface-hub==0.30.2
+faiss-cpu==1.11.0
+streamlit==1.45.1
+pandas==2.2.3
+scikit-learn==1.6.1
+matplotlib==3.10.3
+plotly==6.1.1

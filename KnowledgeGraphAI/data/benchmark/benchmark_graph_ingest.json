@@ -1,0 +1,365 @@
+{
+  "generated_utc": "2026-11-06T02:34:59.251415+00:00",
+  "neo4j_database": "neo4j",
+  "sql_dialect": "sqlite",
+  "counts_before": {
+    "nodes": 114,
+    "relationships": 214
+  },
+  "counts_after": {
+    "nodes": 114,
+    "relationships": 214
+  },
+  "papers": [
+    {
+      "arxiv_id": "1706.03762",
+      "canonical_paper_id": 1,
+      "title": "Attention Is All You Need",
+      "status": "indexed_with_entities",
+      "page_count": 15,
+      "sentence_count": 376,
+      "ner_entity_count": 53,
+      "persisted_entity_count": 11,
+      "extracted_relation_count": 4,
+      "persisted_relationship_count": 2,
+      "graph_query_entity_count": 11,
+      "graph_query_relationship_count": 2,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "FRAMEWORK",
+        "METRIC",
+        "MODEL",
+        "ORGANIZATION",
+        "TASK"
+      ],
+      "relationship_types": [
+        "ACHIEVES",
+        "COMPARED_WITH",
+        "OUTPERFORMS"
+      ],
+      "warnings": [
+        "Invalid relation: OUTPERFORMS Model -> Metric",
+        "Invalid relation: OUTPERFORMS Model -> Metric"
+      ],
+      "elapsed_seconds": 2.235245199990459
+    },
+    {
+      "arxiv_id": "1810.04805",
+      "canonical_paper_id": 2,
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "status": "indexed_with_entities",
+      "page_count": 16,
+      "sentence_count": 638,
+      "ner_entity_count": 301,
+      "persisted_entity_count": 24,
+      "extracted_relation_count": 16,
+      "persisted_relationship_count": 15,
+      "graph_query_entity_count": 24,
+      "graph_query_relationship_count": 15,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "DATASET",
+        "FRAMEWORK",
+        "METHODOLOGY",
+        "METRIC",
+        "MODEL",
+        "ORGANIZATION",
+        "TASK"
+      ],
+      "relationship_types": [
+        "ACHIEVES",
+        "COMPARED_WITH",
+        "EVALUATED_ON",
+        "IMPROVES",
+        "OUTPERFORMS",
+        "USES"
+      ],
+      "warnings": [
+        "Invalid relation: OUTPERFORMS Model -> Metric"
+      ],
+      "elapsed_seconds": 2.16881950001698
+    },
+    {
+      "arxiv_id": "1903.10676",
+      "canonical_paper_id": 3,
+      "title": "SciBERT: A Pretrained Language Model for Scientific Text",
+      "status": "indexed_with_entities",
+      "page_count": 6,
+      "sentence_count": 268,
+      "ner_entity_count": 128,
+      "persisted_entity_count": 9,
+      "extracted_relation_count": 6,
+      "persisted_relationship_count": 4,
+      "graph_query_entity_count": 9,
+      "graph_query_relationship_count": 4,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "FRAMEWORK",
+        "METRIC",
+        "MODEL",
+        "TASK"
+      ],
+      "relationship_types": [
+        "COMPARED_WITH",
+        "IMPROVES",
+        "OUTPERFORMS"
+      ],
+      "warnings": [
+        "Invalid relation: OUTPERFORMS Model -> Metric",
+        "Invalid relation: OUTPERFORMS Model -> Metric"
+      ],
+      "elapsed_seconds": 0.6516981999156997
+    },
+    {
+      "arxiv_id": "2004.12832",
+      "canonical_paper_id": 4,
+      "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
+      "status": "indexed_with_entities",
+      "page_count": 10,
+      "sentence_count": 533,
+      "ner_entity_count": 122,
+      "persisted_entity_count": 9,
+      "extracted_relation_count": 1,
+      "persisted_relationship_count": 1,
+      "graph_query_entity_count": 9,
+      "graph_query_relationship_count": 1,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "ALGORITHM",
+        "FRAMEWORK",
+        "METHODOLOGY",
+        "METRIC",
+        "MODEL",
+        "TASK"
+      ],
+      "relationship_types": [
+        "IMPROVES"
+      ],
+      "warnings": [],
+      "elapsed_seconds": 1.675030600046739
+    },
+    {
+      "arxiv_id": "2004.04906",
+      "canonical_paper_id": 5,
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "status": "indexed_with_entities",
+      "page_count": 13,
+      "sentence_count": 526,
+      "ner_entity_count": 89,
+      "persisted_entity_count": 9,
+      "extracted_relation_count": 0,
+      "persisted_relationship_count": 0,
+      "graph_query_entity_count": 9,
+      "graph_query_relationship_count": 0,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "DATASET",
+        "METHODOLOGY",
+        "METRIC",
+        "MODEL",
+        "TASK"
+      ],
+      "relationship_types": [],
+      "warnings": [],
+      "elapsed_seconds": 1.0162003999575973
+    },
+    {
+      "arxiv_id": "2104.08663",
+      "canonical_paper_id": 6,
+      "title": "BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+      "status": "indexed_with_entities",
+      "page_count": 24,
+      "sentence_count": 942,
+      "ner_entity_count": 75,
+      "persisted_entity_count": 11,
+      "extracted_relation_count": 2,
+      "persisted_relationship_count": 2,
+      "graph_query_entity_count": 11,
+      "graph_query_relationship_count": 2,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "FRAMEWORK",
+        "METHODOLOGY",
+        "METRIC",
+        "MODEL",
+        "TASK"
+      ],
+      "relationship_types": [
+        "COMPARED_WITH"
+      ],
+      "warnings": [],
+      "elapsed_seconds": 1.3528426999691874
+    },
+    {
+      "arxiv_id": "2005.11401",
+      "canonical_paper_id": 7,
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "status": "indexed_with_entities",
+      "page_count": 19,
+      "sentence_count": 706,
+      "ner_entity_count": 65,
+      "persisted_entity_count": 17,
+      "extracted_relation_count": 0,
+      "persisted_relationship_count": 0,
+      "graph_query_entity_count": 17,
+      "graph_query_relationship_count": 0,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "DATASET",
+        "FRAMEWORK",
+        "METHODOLOGY",
+        "METRIC",
+        "MODEL",
+        "ORGANIZATION",
+        "TASK"
+      ],
+      "relationship_types": [],
+      "warnings": [],
+      "elapsed_seconds": 1.4506043998990208
+    },
+    {
+      "arxiv_id": "1609.02907",
+      "canonical_paper_id": 8,
+      "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+      "status": "indexed_with_entities",
+      "page_count": 14,
+      "sentence_count": 394,
+      "ner_entity_count": 17,
+      "persisted_entity_count": 4,
+      "extracted_relation_count": 0,
+      "persisted_relationship_count": 0,
+      "graph_query_entity_count": 4,
+      "graph_query_relationship_count": 0,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "ALGORITHM",
+        "FRAMEWORK",
+        "METRIC",
+        "TASK"
+      ],
+      "relationship_types": [],
+      "warnings": [],
+      "elapsed_seconds": 1.2140896000200883
+    },
+    {
+      "arxiv_id": "1710.10903",
+      "canonical_paper_id": 9,
+      "title": "Graph Attention Networks",
+      "status": "indexed_with_entities",
+      "page_count": 12,
+      "sentence_count": 374,
+      "ner_entity_count": 18,
+      "persisted_entity_count": 7,
+      "extracted_relation_count": 0,
+      "persisted_relationship_count": 0,
+      "graph_query_entity_count": 7,
+      "graph_query_relationship_count": 0,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "FRAMEWORK",
+        "METRIC",
+        "MODEL",
+        "OPTIMIZER"
+      ],
+      "relationship_types": [],
+      "warnings": [],
+      "elapsed_seconds": 0.8966874999459833
+    },
+    {
+      "arxiv_id": "1512.03385",
+      "canonical_paper_id": 10,
+      "title": "Deep Residual Learning for Image Recognition",
+      "status": "indexed_with_entities",
+      "page_count": 12,
+      "sentence_count": 888,
+      "ner_entity_count": 213,
+      "persisted_entity_count": 11,
+      "extracted_relation_count": 2,
+      "persisted_relationship_count": 2,
+      "graph_query_entity_count": 11,
+      "graph_query_relationship_count": 2,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "ALGORITHM",
+        "DATASET",
+        "METRIC",
+        "MODEL",
+        "OPTIMIZER",
+        "ORGANIZATION"
+      ],
+      "relationship_types": [
+        "EVALUATED_ON",
+        "USES"
+      ],
+      "warnings": [],
+      "elapsed_seconds": 1.322583300061524
+    },
+    {
+      "arxiv_id": "1506.01497",
+      "canonical_paper_id": 11,
+      "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+      "status": "indexed_with_entities",
+      "page_count": 14,
+      "sentence_count": 676,
+      "ner_entity_count": 167,
+      "persisted_entity_count": 11,
+      "extracted_relation_count": 3,
+      "persisted_relationship_count": 2,
+      "graph_query_entity_count": 11,
+      "graph_query_relationship_count": 2,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "ALGORITHM",
+        "DATASET",
+        "METRIC",
+        "MODEL",
+        "OPTIMIZER",
+        "ORGANIZATION"
+      ],
+      "relationship_types": [
+        "COMPARED_WITH",
+        "USES"
+      ],
+      "warnings": [],
+      "elapsed_seconds": 1.7354169000172988
+    },
+    {
+      "arxiv_id": "1505.04597",
+      "canonical_paper_id": 12,
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "status": "indexed_with_entities",
+      "page_count": 8,
+      "sentence_count": 189,
+      "ner_entity_count": 5,
+      "persisted_entity_count": 2,
+      "extracted_relation_count": 0,
+      "persisted_relationship_count": 0,
+      "graph_query_entity_count": 2,
+      "graph_query_relationship_count": 0,
+      "idempotency_verified": true,
+      "provenance_verified": true,
+      "entity_types": [
+        "DATASET",
+        "METRIC"
+      ],
+      "relationship_types": [],
+      "warnings": [],
+      "elapsed_seconds": 0.4821894000051543
+    }
+  ],
+  "papers_succeeded": 12,
+  "papers_failed": 0,
+  "graph_mutations_are_scoped_to_benchmark_papers": true,
+  "postgresql_modified": false
+}
