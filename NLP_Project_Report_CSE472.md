@@ -42,6 +42,7 @@ Academic and scientific research papers are published at an overwhelming rate in
 - [ ] Other: __________  
 
 **Demo / Application Link:**  
+- **GitHub Repository:** `https://github.com/AdityaJadhav4545/KnowledgeGraphAI-An-NLP-Powered-Intelligent-Research-Assistant-for-Academic-`  
 - **Frontend Web Application:** `http://localhost:8501` (Interactive Streamlit UI)  
 - **Backend API & Swagger Docs:** `http://127.0.0.1:8000/docs` (FastAPI REST Service)  
 - **Source Code Repository:** `c:\Users\tanaj\OneDrive\Desktop\NLP_Projects\NLP_Project4\Knowledge Graph 2`
@@ -164,6 +165,7 @@ Academic and scientific research papers are published at an overwhelming rate in
 ---
 
 ### Q12. Application / Demo Link:
+- **GitHub Repository:** `https://github.com/AdityaJadhav4545/KnowledgeGraphAI-An-NLP-Powered-Intelligent-Research-Assistant-for-Academic-`  
 - **Streamlit Web Application UI:** `http://localhost:8501`  
   *(Run locally via: `streamlit run KnowledgeGraphAI/frontend/app.py`)*  
 - **FastAPI REST API & Interactive Swagger Documentation:** `http://127.0.0.1:8000/docs`  

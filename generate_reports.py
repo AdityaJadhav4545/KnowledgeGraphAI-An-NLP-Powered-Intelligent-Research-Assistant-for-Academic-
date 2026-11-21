@@ -150,6 +150,7 @@ def generate_docx():
         (False, 'Other: __________')
     ])
     add_body(
+        '• GitHub Repository: https://github.com/AdityaJadhav4545/KnowledgeGraphAI-An-NLP-Powered-Intelligent-Research-Assistant-for-Academic-\n'
         '• Frontend UI: http://localhost:8501 (Interactive Streamlit Web Application)\n'
         '• Backend API & Docs: http://127.0.0.1:8000/docs (FastAPI REST Service & Interactive Swagger UI)\n'
         '• Workspace Repository: c:\\Users\\tanaj\\OneDrive\\Desktop\\NLP_Projects\\NLP_Project4\\Knowledge Graph 2',
@@ -272,6 +273,7 @@ def generate_docx():
     # Q12
     add_question('Q12. Application / Demo Link:')
     add_body(
+        '• GitHub Repository: https://github.com/AdityaJadhav4545/KnowledgeGraphAI-An-NLP-Powered-Intelligent-Research-Assistant-for-Academic-\n'
         '• Streamlit Web UI: http://localhost:8501 (Run via: streamlit run KnowledgeGraphAI/frontend/app.py)\n'
         '• FastAPI REST API & Swagger UI: http://127.0.0.1:8000/docs (Run via: uvicorn KnowledgeGraphAI.backend.main:app --reload)\n'
         '• Project Workspace Path: c:\\Users\\tanaj\\OneDrive\\Desktop\\NLP_Projects\\NLP_Project4\\Knowledge Graph 2',
@@ -468,6 +470,7 @@ def generate_pdf():
     ]))
     q3_links = (
         "<b>Demo / Application Links:</b><br/>"
+        "• <b>GitHub Repository:</b> https://github.com/AdityaJadhav4545/KnowledgeGraphAI-An-NLP-Powered-Intelligent-Research-Assistant-for-Academic-<br/>"
         "• <b>Frontend UI:</b> http://localhost:8501 (Interactive Streamlit Web Application)<br/>"
         "• <b>Backend API & Docs:</b> http://127.0.0.1:8000/docs (FastAPI REST Service & Interactive Swagger UI)<br/>"
         "• <b>Workspace Repository:</b> c:\\Users\\tanaj\\OneDrive\\Desktop\\NLP_Projects\\NLP_Project4\\Knowledge Graph 2"
@@ -601,6 +604,7 @@ def generate_pdf():
     # Q12
     story.append(Paragraph("Q12. Application / Demo Link:", q_title_style))
     q12_desc = (
+        "• <b>GitHub Repository:</b> https://github.com/AdityaJadhav4545/KnowledgeGraphAI-An-NLP-Powered-Intelligent-Research-Assistant-for-Academic-<br/>"
         "• <b>Streamlit Web UI:</b> http://localhost:8501 (Run via: <code>streamlit run KnowledgeGraphAI/frontend/app.py</code>)<br/>"
         "• <b>FastAPI REST API & Swagger UI:</b> http://127.0.0.1:8000/docs (Run via: <code>uvicorn KnowledgeGraphAI.backend.main:app --reload</code>)<br/>"
         "• <b>Project Workspace Path:</b> <code>c:\\Users\\tanaj\\OneDrive\\Desktop\\NLP_Projects\\NLP_Project4\\Knowledge Graph 2</code>"
